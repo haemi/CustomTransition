@@ -9,6 +9,7 @@
 
 @interface ViewController : UIViewController
 
+- (void)didPan:(UIPanGestureRecognizer *)recognizer;
 
 @end
 
